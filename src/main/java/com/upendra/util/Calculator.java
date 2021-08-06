@@ -18,6 +18,8 @@ public class Calculator {
 		System.out.println(a % b);
 	}
 	
+	System.out.println("All are Executed........!");
+	
 	public static void main(String[] args) {
 		Calculator calculator = new Calculator();
 		calculator.add(10, 20);
