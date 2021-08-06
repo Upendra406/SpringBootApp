@@ -18,14 +18,13 @@ public class Calculator {
 		System.out.println(a % b);
 	}
 	
-	System.out.println("All are Executed........!");
 	
 	public static void main(String[] args) {
 		Calculator calculator = new Calculator();
 		calculator.add(10, 20);
 		calculator.sub(10, 20);
 		calculator.mul(10, 20);
-		calculator.div(10, 20);
+		calculator.div(10, 30);
 		calculator.mod(10, 20);
 		
 	}
